@@ -24,6 +24,8 @@ MS AI Study LLM Project
 ##  실습 주제 설명 
 
 ## 이미지 및 링크 테스트
-![mcp image](./mc[IU_face.jpg])
+![mcp image](./IU_face.jpg)
+
+[네이버](http://naver.com)
 
 
