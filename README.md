@@ -22,3 +22,8 @@ MS AI Study LLM Project
 		- AWS, GCP 등 타 CSP 확장
   
 ##  실습 주제 설명 
+
+## 이미지 및 링크 테스트
+![mcp image](./mc[IU_face.jpg])
+
+
