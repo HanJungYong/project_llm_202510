@@ -1,9 +1,7 @@
 # project_llm_202510
 MS AI Study LLM Project
 
-## 실습 주제 후보 
-
-[ 제안서 작성을 위한 Cloud 아키텍처 설계 도우미 ]
+## 실습 주제 후보 : 제안서 작성을 위한 Cloud 아키텍처 설계 도우미
 
 - 개요: 프로젝트 RFP 를 분석하여 RFP Requirement 에 따른 최신 Cloud Service 추천 및 아키텍처 구성 
 - 목적: 빠른 제안서 작성을 위한 Cloud 아키텍처 설계 도우미
