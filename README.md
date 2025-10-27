@@ -9,7 +9,7 @@ MS AI Study LLM Project
 
 - 입력: RFP / 고객 Requirement File
 - 출력: Requirement별 추천 Azure Cloud Service 리스트 결과 화면 / File
-- Azure Cloud 서비스 대상    
+
 - RFP(PDF) 에서 Requirement 도출 및 분석 
 - Azure Cloud Service 기능 수집 및 분석 
 	- Service Doc Site 연결 및 수집 (MCP 사용 연결 RealData ??)	
