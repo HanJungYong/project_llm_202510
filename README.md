@@ -1,5 +1,5 @@
-# project_llm_202510
-MS AI Study LLM Project
+# project_llm_202510 한정용
+- MS AI Study LLM 교육 7차
 
 ## 실습 주제 후보 : 빠른 제안서 작성을 위한 Cloud 아키텍처 설계 도우미 
 
