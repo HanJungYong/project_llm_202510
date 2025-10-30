@@ -23,7 +23,7 @@
     - 설명: Azure AI Search RAG 결과 와 Prompt(User Requirement) 를 기반으로 서비스 추천 (추론)
   - Streamlit 을 통한 화면 출력 
     - 사용 서비스: Streamlit 
-	- 설명:  추천 Azure Cloud Service lsit 결과 출력 및 Execl File download
+	- 설명:  추천 Azure Cloud Service lsit 결과 출력 및 Excel File download
   
 5. MVP 이후 차후 기능 확장 방안 
 	- AWS, GCP 등 타 CSP Cloud Service 추천으로 확장 
