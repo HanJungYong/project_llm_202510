@@ -1,25 +1,35 @@
 # project_llm_202510 한정용
 - MS AI Study LLM 교육 7차
 
-## 실습 주제 후보 : 빠른 제안서 작성을 위한 Cloud 아키텍처 설계 도우미 
+## 실습 주제 : Cloud Architecture Design Assistant
 
-- 개요: 프로젝트 RFP 를 분석하여 RFP Requirement 에 따른 최신 Cloud Service 추천 및 아키텍처 구성 
-- 목적: 프로젝트 제안이나 고객의 선 제안시, 빠른 제안서 작성을 위한 Cloud 아키텍처 설계 도우미
-- WEB UI : Requirement 별 Cloud Service 추천 
-	- 입력: RFP / 고객 Requirement File
-	- 출력: Requirement별 추천 Azure Cloud Service 리스트 결과 화면 / File
+1. 개요: User Requirement 에 따른 Cloud Architecture 설계를 위한 Azure Cloud Service 추천
+2. 목적: 프로젝트 제안이나 고객의 요청시, 쉽고 빠른 Cloud Architecture 설계 지원
+3. 사용자 경험 (UX) : WEB UI (Streamlit UI)
+	- 입력: User Requirement (System/Business)
+	- 출력: Cloud Architecture 설계를 위한 추천 Azure Cloud Service lsit 결과 화면 
+	- 출력 결과에 대한 Execl File download 지원 
+4. Process 별 기능 및 기술 구현   
+  1) Azure Cloud Service 기능 수집 및 저장 
+    - 사용 서비스: Azure Storage account
+    - 설명: Azure Cloud Service file 에서 Azure Storage 로 load 
+  2) User Requirement 에 맞는 Azure Cloud Service 검색 (RAG)
+    - 사용 서비스: Azure AI Search
+	- 사용 Model:  text-embedding-3-small
+	- 설명: Azure AI Search 를 통한 검색 RAG 구현 
+  3) User Requirement 를 만족하는 Azure Cloud Service 추천
+    - 사용 서비스: Azure AI Foundry - OpenAI
+	- 사용 Model: gpt-4.1-mini
+    - 설명: Azure AI Search RAG 결과 와 Prompt(User Requirement) 를 기반으로 서비스 추천 (추론)
+  4) Streamlit 을 통한 화면 출력 
+    - 사용 서비스: Streamlit 
+	- 설명:  추천 Azure Cloud Service lsit 결과 출력 및 Execl File download
+  
+5. MVP 이후 차후 기능 확장 방안 
+	- AWS, GCP 등 타 CSP Cloud Service 추천으로 확장 
+	- RFP file 분석 등 여러 Requirement 분석 기능 지원 
+	- Requirement 별 구현 Cloud Architecture 구성 및 샘플 제공
 
-- RFP(PDF) 에서 Requirement 도출 및 분석 
-- Azure Cloud Service 기능 수집 및 분석 
-	- Service Doc Site 연결 및 수집 (MCP 사용 연결 RealData ??)	
-	- Service 소개 Files 에서 기능 수집 및 분석 
-    - Service 기능 소개 API 연결 및 수집 (MCP 사용 연결 RealData ??)
-- Requirement 를 만족하는 Azure Cloud Service 기능 매핑 및 추천 
-- Requirement 별 구현 Azure Cloud Service 추천 
-- 차후 기능 확장 방안 
-	- Requirement 별 구현 Cloud Service 아키텍처 샘플 제공
-	- Requirement 별 구현 Cloud Service 아키텍처 구성 
-	- AWS, GCP 등 타 CSP 확장 
   
 
 ## 이미지 및 링크 테스트
