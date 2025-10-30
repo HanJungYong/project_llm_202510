@@ -33,7 +33,7 @@
 
   
 
-## 이미지 및 링크 테스트
+## Process 별 기능 및 기술
 ![mcp image](./CloudArchitectureDesignAssistant.png)
 
 [실행 Site](https://hjy-webapp-service-1030-b5g6gcggg5gtargz.eastus2-01.azurewebsites.net)
