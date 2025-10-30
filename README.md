@@ -1,6 +1,7 @@
 # project_llm_202510 한정용
 - MS AI Study LLM 교육 7차
-
+- 실행 Site: https://hjy-webapp-service-1030-b5g6gcggg5gtargz.eastus2-01.azurewebsites.net
+ 
 ## 실습 주제 : Cloud Architecture Design Assistant
 
 1. 개요: User Requirement 에 따른 Cloud Architecture 설계를 위한 Azure Cloud Service 추천
