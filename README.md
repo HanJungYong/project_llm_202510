@@ -10,18 +10,18 @@
 	- 출력: Cloud Architecture 설계를 위한 추천 Azure Cloud Service lsit 결과 화면 
 	- 출력 결과에 대한 Execl File download 지원 
 4. Process 별 기능 및 기술 구현   
-  1) Azure Cloud Service 기능 수집 및 저장 
+  1. Azure Cloud Service 기능 수집 및 저장 
     - 사용 서비스: Azure Storage account
     - 설명: Azure Cloud Service file 에서 Azure Storage 로 load 
-  2) User Requirement 에 맞는 Azure Cloud Service 검색 (RAG)
+  2. User Requirement 에 맞는 Azure Cloud Service 검색 (RAG)
     - 사용 서비스: Azure AI Search
 	- 사용 Model:  text-embedding-3-small
 	- 설명: Azure AI Search 를 통한 검색 RAG 구현 
-  3) User Requirement 를 만족하는 Azure Cloud Service 추천
+  3. User Requirement 를 만족하는 Azure Cloud Service 추천
     - 사용 서비스: Azure AI Foundry - OpenAI
 	- 사용 Model: gpt-4.1-mini
     - 설명: Azure AI Search RAG 결과 와 Prompt(User Requirement) 를 기반으로 서비스 추천 (추론)
-  4) Streamlit 을 통한 화면 출력 
+  4. Streamlit 을 통한 화면 출력 
     - 사용 서비스: Streamlit 
 	- 설명:  추천 Azure Cloud Service lsit 결과 출력 및 Execl File download
   
