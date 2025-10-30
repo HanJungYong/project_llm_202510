@@ -34,7 +34,7 @@
   
 
 ## 이미지 및 링크 테스트
-![mcp image](./IU_face.jpg)
+![mcp image](./CloudArchitectureDesignAssistant.png)
 
-[네이버](http://naver.com)
+[실행 Site](https://hjy-webapp-service-1030-b5g6gcggg5gtargz.eastus2-01.azurewebsites.net)
 
