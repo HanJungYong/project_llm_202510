@@ -2,12 +2,13 @@
 - KT DS 금융Cloud사업팀 한정용
 - MS AI Study LLM 교육 7차
 - 
-# APP 기획 배경 : 언제나 고객은 시간을 주지 않는다.
-  R1. 내일까지 이 요구사항에 맞는 Cloud Service 주세요~
-  R2. 이번주말에 제안서 제춠해주세요~
-  R3. 이 시스템 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
+# APP 기획 배경 
+ ## 언제나 고객은 시간을 주지 않는다.
+ ### R1. 내일까지 이 요구사항에 맞는 Cloud Service 주세요
+ ### R2. 이번주말에 제안서 제춠해주세요~
+ ### R3. 이 시스템 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
   
-#  APP 개발 모토 : Enjoy your life.
+#  APP 개발 모토 : Save your Time, Enjoy your life !!!
 
  
 ## Cloud Architecture Design Assistant 설명
@@ -37,7 +38,7 @@
     - 사용 서비스: Streamlit 
 	- 설명:  추천 Azure Cloud Service lsit 결과 출력 및 Excel File download
 
-
+## APP Service 실행
 [실행 Site](https://hjy-webapp-serviceassistant-1030-fucwfpdcdkhuf2dq.eastus2-01.azurewebsites.net)
 
 ## MVP 이후 차후 기능 확장 방안 
