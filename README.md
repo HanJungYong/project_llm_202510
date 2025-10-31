@@ -8,7 +8,7 @@
 #### - R3. 이 시스템 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
   
 ## 2. APP 개발 모토 : Save your Time, Enjoy your life !!!
- ### 우리의 시간은 소중하다~ ^^
+ - 우리의 시간은 소중하다~ ^^
 
  
 ## 3. Cloud Architecture Design Assistant 설명
