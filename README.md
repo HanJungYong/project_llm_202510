@@ -4,11 +4,12 @@
 
 ## 1.APP 기획 배경 
  ### 언제나 고객은 시간을 주지 않는다.
-	#### R1. 내일까지 이 요구사항에 맞는 Cloud Service 주세요
- 	#### R2. 이번주말에 제안서 제춠해주세요~
- 	#### R3. 이 시스템 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
+ #### R1. 내일까지 이 요구사항에 맞는 Cloud Service 주세요
+ #### R2. 이번주말에 제안서 제춠해주세요~
+ #### R3. 이 시스템 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
   
 ## 2.APP 개발 모토 : Save your Time, Enjoy your life !!!
+ ###
 
  
 ## 3.Cloud Architecture Design Assistant 설명
@@ -42,6 +43,6 @@
 [실행 Site](https://hjy-webapp-serviceassistant-1030-fucwfpdcdkhuf2dq.eastus2-01.azurewebsites.net)
 
 ## 6.MVP 이후 차후 기능 확장 방안 
-	### - AWS, GCP 등 타 CSP Cloud Service 추천으로 확장 
-	### - RFP file 분석 등 여러 Requirement 분석 기능 지원 
-	### - Requirement 별 구현 Cloud Architecture 구성 및 샘플 제공
+### - AWS, GCP 등 타 CSP Cloud Service 추천으로 확장 
+### - RFP file 분석 등 여러 Requirement 분석 기능 지원 
+### - Requirement 별 구현 Cloud Architecture 구성 및 샘플 제공
