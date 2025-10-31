@@ -46,12 +46,12 @@
 ## 5. APP Service 실행
 [실행 Site](https://hjy-webapp-serviceassistant-1030-fucwfpdcdkhuf2dq.eastus2-01.azurewebsites.net)
 
-case1: 
+- case1: 
 개인정보를 안전하게 저장하고 비공개로 접근제어가 되어야 한다.
 외부 파트너에게 API를 노출하되 트래픽 제어와 인증/인가가 필요하다.
 사내 문서 기반 검색형 챗봇 PoC를 만들고 싶다.
 
-case2:
+- case2:
 고객 서비스를 위한 웹 서비스를 만들어야 합니다.
 보안이 중요한 글로벌 서비스로 기본적인 은행서비스가 제공되어야 합니다.
 
