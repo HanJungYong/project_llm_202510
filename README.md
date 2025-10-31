@@ -5,8 +5,8 @@
 
 ## 1. APP 기획 배경 : 언제나 고객은 시간을 주지 않는다.
 #### &emsp;&emsp; - R1. 내일까지 이 요구사항에 맞는 Cloud Service list 와 아키텍처 만들어 주세요
-#### &emsp;&emsp; - R2. 이번주말에 제안서 제출해주세요~
-#### &emsp;&emsp; - R3. 이 시스템 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
+#### &emsp;&emsp; - R2. 이번 주말까지 제안서 제출해주세요~
+#### &emsp;&emsp; - R3. 이 시스템을 Cloud 로 고도화해서 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
 <br>  
 
 ## 2. APP 개발 모토 : Save your Time, Enjoy your life !!!
@@ -48,7 +48,17 @@
 
 <br>
 
-## 6. MVP 이후 차후 기능 확장 방안 
+## 6. 정량적 기대효과 및 ROI
+- 예상 절감 시간(년): 6h * 12(월) = 72h
+- 1인당 비용: ₩65,000 원 (시간당), W10,000,000 원(월)
+- 예상 kt ds 사용 인력: 500 명
+### &emsp;&emsp; - 절감 비용: 2,340,000,000 원 (년)
+<br>
+
+## 7. MVP 이후 차후 기능 확장 방안 
 ### &emsp;&emsp; - AWS, GCP 등 타 CSP Cloud Service 추천으로 확장 
 ### &emsp;&emsp; - RFP file 분석 등 여러 Requirement 분석 기능 지원 
 ### &emsp;&emsp; - Requirement 별 구현 Cloud Architecture 구성 및 샘플 제공
+### &emsp;&emsp; - KT DS 의 사회공헌 및 동반성장을 위해 App 을 OpenSource 로 제공할 예정임
+
+
