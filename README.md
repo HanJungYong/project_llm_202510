@@ -4,7 +4,7 @@
 <br>  
 
 ## 1. APP 기획 배경 : 언제나 고객은 시간을 주지 않는다.
-#### &emsp;&emsp; - R1. 내일까지 이 요구사항에 맞는 Cloud Service list 와 아키텍처 만들어 주세요
+#### &emsp;&emsp; - R1. 내일까지 이 요구사항에 맞는 Cloud Service list 와 아키텍처 만들어 메일로 주세요
 #### &emsp;&emsp; - R2. 이번 주말까지 제안서 제출해주세요~
 #### &emsp;&emsp; - R3. 이 시스템을 Cloud 로 고도화해서 만들려고 하는 데 어떤 Cloud Service 가 필요하지요?
 <br>  
@@ -15,7 +15,7 @@
  
 ## 3. Cloud Architecture Design Assistant 설명
 
-1. 개요: User Requirement 에 따른 Cloud Architecture 설계를 위한 Azure Cloud Service 추천
+1. 개요: User Requirement 에 적합한 Cloud Architecture 설계를 위한 Azure Cloud Service 추천
 2. 목적: 프로젝트 제안이나 고객의 요청시, 쉽고 빠른 Cloud Architecture 설계 지원
 3. 사용자 경험 (UX) : WEB UI (Streamlit UI)
 	- 입력: User Requirement (System/Business)
